@@ -39,3 +39,4 @@ export PGDATA=/usr/local/var/postgres
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
+export LANG=ja_JP.UTF-8

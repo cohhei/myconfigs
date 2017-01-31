@@ -1,0 +1,13 @@
+// Visual Studio Code Setting
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.fontFamily": "'Migu 1M'",
+    "editor.fontSize": 13,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.scrollBeyondLastLine": false,
+    "editor.wrappingColumn": 0,
+    "editor.wordWrap": true,
+    "editor.snippetSuggestions": "top"
+  }
