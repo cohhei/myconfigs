@@ -8,7 +8,7 @@ alias -s html='google-chrome'
 alias -s rb='ruby'
 
 alias ssh-ko='ssh -i .ssh/ko-ssh2.txt -p 22 root@210.140.174.210'
-
+alias rscript='Rscript'
 
 # コマンドミスを修正
 setopt correct
@@ -21,6 +21,7 @@ colors
 zstyle ':completion:*:default' menu select=2
 
 # 補完で大文字にもマッチ
+
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # less
@@ -40,3 +41,18 @@ export PGDATA=/usr/local/var/postgres
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 export LANG=ja_JP.UTF-8
+
+export GOPATH=$HOME
+
+oclogs () {
+  oc logs $(ocpod $1) $2 $3 $4 
+}
+
+ocrsh () {
+  oc rsh $(ocpod $1)
+}
+
+ocpod () {
+  pod=$(oc get pods | cut -f1 -d ' ' | grep $1)
+  echo $pod
+}
