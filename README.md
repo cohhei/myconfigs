@@ -7,6 +7,7 @@
 Set up these configs:
 
 ```
+git clone git@github.com:kohei-kimura/myconfigs.git
 cd home
 set.sh
 ```
