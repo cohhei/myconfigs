@@ -1,5 +1,16 @@
 # My Config Files
-- `.zshrc`
-- `.vimrc`
-- `.gitignore_global`
+## Home Directory
+- [.zshrc](home/.zshrc)
+- [.vimrc](home/.vimrc)
+- [.gitignore_global](home/.gitignore_global)
 
+Set up these configs:
+
+```
+cd home
+set.sh
+```
+
+## Visual Studio Code
+- [setting.json](vscode/setting.json)
+- [keybindings.json](vscode/keybindings.json)
