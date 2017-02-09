@@ -21,7 +21,6 @@ colors
 zstyle ':completion:*:default' menu select=2
 
 # 補完で大文字にもマッチ
-
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # less
@@ -38,11 +37,9 @@ export LESS_TERMCAP_us=$'\E[01;32m'      # Begins underline.
 #postgres
 export PGDATA=/usr/local/var/postgres
 
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-
 export LANG=ja_JP.UTF-8
 
-export GOPATH=$HOME
+export GOPATH=$HOME/go
 
 oclogs () {
   oc logs $(ocpod $1) $2 $3 $4 
