@@ -1,4 +1,3 @@
-// Visual Studio Code Setting
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
     "editor.tabSize": 2,
@@ -9,5 +8,6 @@
     "editor.scrollBeyondLastLine": false,
     "editor.wrappingColumn": 0,
     "editor.wordWrap": true,
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "terminal.integrated.fontSize": 13
   }
