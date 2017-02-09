@@ -13,7 +13,7 @@ cd myconfigs/home
 ```
 
 ## Visual Studio Code
-- [setting.json](vscode/setting.json)
+- [settings.json](vscode/settings.json)
 - [keybindings.json](vscode/keybindings.json)
 - [snippets/](vscode/snippets/)
 
