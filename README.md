@@ -15,6 +15,6 @@ cd myconfigs/home
 ## Visual Studio Code
 - [setting.json](vscode/setting.json)
 - [keybindings.json](vscode/keybindings.json)
-- [snippets/](snippets/)
+- [snippets/](vscode/snippets/)
 
 You can set up these configns on Visual Studio Code with `⌘ + ,`, `⌘K ⌘S`, and `>preferences: Snippets`, or copy these files into `~/Library/Application Support/Code/User/`.
