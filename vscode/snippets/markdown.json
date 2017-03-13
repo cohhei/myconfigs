@@ -8,10 +8,10 @@
 	 "Print to console": {
 		"prefix": "table",
 		"body": [
-			"| $1 | $2 |",
-			"| -- | -- |",
-			"| $3 | $4 |",
-			"| $5 | $6 |"
+			" | ${1:column} | ${2:column} | ",
+			" | ------ | ------ | ",
+			" | ${3:value}  | ${4:value}  | ",
+			" | ${5:value}  | ${6:value}  | " 
 		],
 		"description": "table"
 	}
