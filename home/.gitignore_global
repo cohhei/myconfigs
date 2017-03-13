@@ -51,3 +51,6 @@ jspm_packages
 
 # VScode
 .vscode/
+
+# R
+.Rhistory
