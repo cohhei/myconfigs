@@ -6,8 +6,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 alias -s txt='cat'
 alias -s html='google-chrome'
 alias -s rb='ruby'
-
-alias ssh-ko='ssh -i .ssh/ko-ssh2.txt -p 22 root@210.140.174.210'
+alias ls='ls -G'
 alias rscript='Rscript'
 
 # コマンドミスを修正
@@ -40,6 +39,10 @@ export PGDATA=/usr/local/var/postgres
 export LANG=ja_JP.UTF-8
 
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export GOPRO=$GOPATH/src/github.com/kohei-kimura
+
+source ~/.rvm/scripts/rvm 
 
 oclogs () {
   oc logs $(ocpod $1) $2 $3 $4 
@@ -53,3 +56,4 @@ ocpod () {
   pod=$(oc get pods | cut -f1 -d ' ' | grep $1)
   echo $pod
 }
+export PATH="$HOME/.embulk/bin:$PATH"
