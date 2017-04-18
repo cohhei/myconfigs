@@ -2,7 +2,7 @@
 PROMPT='%F{cyan}%n@%m:%~%f $ '
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
+export EDITOR=/usr/bin/vim
 alias -s txt='cat'
 alias -s html='google-chrome'
 alias -s rb='ruby'
