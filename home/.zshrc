@@ -8,6 +8,7 @@ alias -s html='google-chrome'
 alias -s rb='ruby'
 alias ls='ls -G'
 alias rscript='Rscript'
+alias dc='docker-compose'
 
 # コマンドミスを修正
 setopt correct
