@@ -12,6 +12,6 @@
     "window.zoomLevel": 0,
     "workbench.iconTheme": "file-icons",
     "[markdown]": {
-      "editor.insertSpaces": false
+      "editor.insertSpaces": true
     }
   }
